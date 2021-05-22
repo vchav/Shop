@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/layout.css">	
+	<title>Jill's Pet Corral - Home</title>
+</head>
+<body>
+	<div id="everything">
+		<header id="pageHeader">
+			<img src="images/snail.JPG" alt="Snail">
+			<div id="pageHeaderTitles">
+				<h1>Jill's Pet Corral</h1>
+				<h2>Providing cheap crap on the interwebs since 2012</h2>
+			</div>
+			<hr />
+		</header>
+		<nav id="topnav">
+			<ul id="nav">
+				<li class="current"><a href="index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="careers.html">Careers</a></li>
+			</ul>	
+		</nav>
+		<section id="mainContent">
+			<aside id="mainPageAside">
+				<h2>We have Magic Chickens!</h2>
+				<p>
+					Check out our standard model Magic Chicken. Hover over the image to see what it turns into when you feed it our 100% organic Magic Chicken Chow!
+				</p>
+				<img src="images/chicken.JPG" alt="Magic Chicken" id="chickenA" usemap="#menumap" alt="magic chicken image" name="mypic">
+				<map name="menumap">
+					<area shape="rect" coords="0,0,320,240" href="index.html" alt="This is an area on the image!"
+					onmouseover="mypic.src='images/rooster.jpg';"
+					onmouseout="mypic.src='images/chicken.jpg';" />
+				</map>
+
+			</aside>
+			<h1>Welcome to Jill's Pet Corral!</h1>
+			<p> Looking for our storyboard? Click <a href="documents/storyboard.pdf">here</a> to download it.</p>
+			<p>Jill's Pet Corral is your full-service store for all kinds of overpriced stuff. We have been in business at one <a href="contact.html">location</a> for 30 days so far, and are a good member of the Rochdale community (at least until the cops take notice and we have to move again).
+			</p>
+			<p>
+				We provide various pet <a href="services.html">services</a> at an exorbitant cost. We have a vast array of <a href="products.html">products</a> which efficiently extract money from our customers. And as a bonus, our staff is comprised solely of highly-educated PhDs whom we have hired after extensive testing and interviewing. Please see the <a href="careers.html">careers</a> page for more information.
+			</p>
+
+		</section>
+		<footer id="pageFooter">
+			<p>Copyright &copy;2012 Jill's Pet Corral. All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>
